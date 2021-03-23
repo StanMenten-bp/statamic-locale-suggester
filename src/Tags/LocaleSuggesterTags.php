@@ -32,10 +32,12 @@ class LocaleSuggesterTags extends Tags
             }
 
             if ($alternate = $entry->in($locale)) {
-                $locales->push([
-                    'locale' => Site::get($locale)->locale(),
-                    'url' => $alternate->absoluteUrl(),
-                ]);
+                if ($alternate->published()) {
+                    $locales->push([
+                        'locale' => Site::get($locale)->locale(),
+                        'url' => $alternate->absoluteUrl(),
+                    ]);
+                }
             }
         }
 

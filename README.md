@@ -62,5 +62,8 @@ Don't be shocked when you'll discover we've used plain and inlined CSS rules in 
 
 ## Changelog
 
+**V1.0.1**
+Better to not show the alert for unpublished versions isn't?
+
 **V1.0.0**
 🚀 Would you like to read the initial commit in another language?
