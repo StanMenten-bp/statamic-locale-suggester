@@ -1,0 +1,25 @@
+{
+    "name": "parfaitementweb/statamic-locale-suggester",
+    "description": "Statamic addon to suggest your visitors to read the page in their preferred language.",
+    "authors": [
+        {
+            "name": "Alexis Serneels"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Parfaitementweb\\StatamicLocaleSuggester\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Locale Suggester",
+            "description": "Statamic addon to suggest your visitors to read the page in their preferred language."
+        },
+        "laravel": {
+            "providers": [
+                "Parfaitementweb\\StatamicLocaleSuggester\\ServiceProvider"
+            ]
+        }
+    }
+}
