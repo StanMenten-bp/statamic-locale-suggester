@@ -62,8 +62,12 @@ Don't be shocked when you'll discover we've used plain and inlined CSS rules in 
 
 ## Changelog
 
-**V1.0.1**
+**V1.0.1**  
+SameSite Cookie value has been set to Lax.  
+Improved default UI for the alert
+
+**V1.0.1**  
 Better to not show the alert for unpublished versions isn't?
 
-**V1.0.0**
+**V1.0.0**  
 🚀 Would you like to read the initial commit in another language?
